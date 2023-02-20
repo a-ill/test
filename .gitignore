@@ -1,0 +1,7 @@
+
+sessions/
+Server/build/GenieViews
+Server/sessions/
+*.jls
+.vscode/settings.json
+Server/app/resources/emails/credentials.json
