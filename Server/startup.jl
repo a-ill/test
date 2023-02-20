@@ -19,6 +19,8 @@ else
     Genie.up(async=false)
 end
 
-# Genie.WebChannels.broadcast("___", "Hey!") # use this to send to a channel
+# When on '/'
+Genie.WebChannels.broadcast("___", "Hey!")
 
-# Genie.WebChannels.broadcast("/test", "Hey!") # use this to send to a channel
+# When on '/test'
+Genie.WebChannels.broadcast("/test", "Hey!")

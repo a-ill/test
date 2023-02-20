@@ -6,12 +6,11 @@ Genie.config.websockets_server = true
 
 #---Basic-----------------------------------------------------------
 
-route("/", BasicController.landing, named = :landing)
+route("/", BasicController.landing)
+
+route("/test", BasicController.test)
 
 Assets.channels_support("___")
 
-# Uncomment this to test
-#=
 Assets.channels_support("/test")
 channel("/test", () -> "")
-=#
